@@ -67,3 +67,7 @@ $ clip < ~/.ssh/id_ed25519.pub
 - [Шпаргалки по MD](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c)
 - [Шпаргалки по MD](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c)
 - that's all
+
+### Новые команды 
+
+- git log --oneline - Получить сокращённый лог.
