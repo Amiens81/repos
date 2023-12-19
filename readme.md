@@ -73,6 +73,7 @@ $ clip < ~/.ssh/id_ed25519.pub
 - git log --oneline - Получить сокращённый лог.
 
 HEAD - это голова. Head -> master - он указывает на последний коммит.
+
 $ pwd %% посмотрели, где мы
 ```mermaid
 $ cd .git %% комментарий
@@ -100,14 +101,13 @@ staged %% подготовленный
 tracked %% отслеживаемый
 modified --> изменённый
 ```
-```mermaid
+
 graph LR;
   untracked -- "git add" --> staged(+tracked);
   staged    -- "git commit"     --> tracked/comitted; %% tracked в списке на коммит.
   modified  -- "git add"     --> staged/modified/tracked;
 %% стрелка без текста для примера: 
   A --> B;
-```
 %% - это в mermaid комментарии.
 Коммит -- это всему голова.
 Статусы файлов:
