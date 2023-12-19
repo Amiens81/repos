@@ -1,5 +1,5 @@
 # Работа с GitHub
-
+## [Markdown язык разментки] (https://practicum.yandex.ru/trainer/git-basics/lesson/c6b9607c-e8bc-4446-89f9-c74522c3492f/)
 ## Начальные команды Git
 - pwd проверить в какой директории находимся
 - cd ~ сменить директорию
@@ -123,6 +123,9 @@ graph LR;
 ```mermaid
 flowchart TD
 A [Develope to production] --> B{is it friday?};
+b [Develope to production] --> c{is it friday?};
+d [Develope to production] --> B{is it friday?};
+A [Develope to production] --> B{is it friday?};
 ```
 Here is a simple flow chart:
 
@@ -133,3 +136,15 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
+### Изменение коммита/Добавить новый файл в последний коммит.
+
+- git commit --amend --no-edit - это добавить в коммит редактированный файл, если забыл без переименования
+
+- git commit --amend -m "Новое сообщение" с переименованием файла
+
+- изменение название nano редактор Ctrl+X, Enter.  Ctrl+X N  - выйти из редаткора, и не менять сообщение.
+
+- редактор vim. Выйти из него esc :qa! Enter
+
+- [Учебник по Vim](vimtutor.ru)
