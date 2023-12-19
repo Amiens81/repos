@@ -1,5 +1,5 @@
 # Работа с GitHub
-## [Markdown язык разментки] (https://practicum.yandex.ru/trainer/git-basics/lesson/c6b9607c-e8bc-4446-89f9-c74522c3492f/)
+## [Markdown язык разментки](https://practicum.yandex.ru/trainer/git-basics/lesson/c6b9607c-e8bc-4446-89f9-c74522c3492f/)
 ## Начальные команды Git
 - pwd проверить в какой директории находимся
 - cd ~ сменить директорию
@@ -148,3 +148,5 @@ graph TD;
 - редактор vim. Выйти из него esc :qa! Enter
 
 - [Учебник по Vim](vimtutor.ru)
+
+- Редактировал 1 файла, Закомитил 1. Проверить git status добать add не закомиченый git add text.txt f.e. А далее уже amend
