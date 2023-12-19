@@ -124,3 +124,12 @@ graph LR;
 flowchart TD
 A [Develope to production] --> B{is it friday?};
 ```
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
