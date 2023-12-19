@@ -117,3 +117,10 @@ graph LR;
 %% описание схемы
 ```
 <и тут пустая строка!>
+
+# How to develope
+
+```mermaid
+flowchart TD
+A [Develope to production] --> B{is it friday?};
+```
